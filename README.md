@@ -54,14 +54,14 @@
 - Overall, Missouri averaged 6,068 birth per month during this time period.
 - August of 2011 had the greatest count of births in a single month with 7,092.
 - Forecasting indicates an uptick in births for 2022.  
-![Births by month](charts/MO_Births_Month+Forecast.png)
+![Births by month](charts/MO_Births_Month+Forecast.png)  
 
 ### Summary of Births by County
 - St. Louis County reported the greatest number of births in a single county during this period at 125K.
 - Jackson County was 2nd with just over 100K.
 - St. Charles County and St. Louis City came in 3rd and 4th with 47,714 and 46,981 births, respectively.
-- Franklin County reported the least total births at under 10K.
-![Births by county](charts/MO_Births_County.png)
+- Franklin County reported the least total births at under 10K.  
+![Births by county](charts/MO_Births_County.png)  
 
 - Reported tobacco use during pregnancy makes up a small portion of total births for the state overall.
 - Jefferson County reported the highest percentage of reported tobacco use at 18% of total births.
