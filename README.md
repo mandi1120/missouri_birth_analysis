@@ -12,8 +12,8 @@
     - Report Key Findings  
 
 ## Files:
-- Source Data: ![Birth_Data_Natality_2011-2021.txt](Birth_Data_Natality_2011-2021.txt)  
-- Jupyter Notebook: ![mo_birth_analysis.ipynb](mo_birth_analysis.ipynb)
+- Source Data: [Birth_Data_Natality_2011-2021.txt](Birth_Data_Natality_2011-2021.txt)  
+- Jupyter Notebook: [mo_birth_analysis.ipynb](mo_birth_analysis.ipynb)
 
 ## Python Libraries:
 - pandas
