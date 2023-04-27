@@ -36,10 +36,16 @@
     - View the "Tobacco Use" column to understand what values are present  
     - Check the "Year-Month" column formatting  
     - Find first and last "Year-Month" in the data  
+4. Summarize the data, create charts and forecast, and calculate basic statistics on the dataset
+    - Births by gender over time
+    - Births by month with 12-month forecast for 2022
+    - Births by county
+    - Tobacco use during pregnancy by county
+5. Analyze the data and visuals to extract important information and report key findings  
 
 ## Analysis:
 
-### Births by Gender 
+### Summary of Births by Gender 
 - Births of males exceeded births of females each year since 2011.
 - There has been an overall downward trend in births from 2011-2021.
     - Male births have fallen from 38,900 in 2011 to 35,000 in 2021.
