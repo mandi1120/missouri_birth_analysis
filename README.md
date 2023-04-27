@@ -23,7 +23,7 @@
 - numpy
 - csv
 
-## Preparation:
+## Process:
 1. Read the source file into a dataframe
 2. Clean and prepare the file:  
     - Remove the first column and rows with missing year  
