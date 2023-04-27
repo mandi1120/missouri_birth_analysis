@@ -25,17 +25,17 @@
 
 ## Preparation:
 1. Read the source file into a dataframe
-2. Clean and prepare the file: 
-Remove the first column and rows with missing year
-Change the datatype of the "Births" column to integer
-Add two new columns, "Year-Month" and "Year-Month-Date"
-Save the dataframe to a csv
+2. Clean and prepare the file:  
+    - Remove the first column and rows with missing year  
+    - Change the datatype of the "Births" column to integer  
+    - Add two new columns, "Year-Month" and "Year-Month-Date"  
+    - Save the dataframe to a csv  
 3. Exploratory Data Analysis: Getting acquainted with the dataset
-Review statistics on the entire dataset to understand row count, min, and max value for each colunn
-View all counties present in the data
-View the "Tobacco Use" column to understand what values are present
-Check the "Year-Month" column formatting
-Find first and last "Year-Month" in the data
+    - Review statistics on the entire dataset to understand row count, min, and max value for each colunn  
+    - View all counties present in the data  
+    - View the "Tobacco Use" column to understand what values are present  
+    - Check the "Year-Month" column formatting  
+    - Find first and last "Year-Month" in the data  
 
 ## Analysis:
 
