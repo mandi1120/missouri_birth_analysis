@@ -3,7 +3,7 @@
 - Created: 4/25/23  
 
 ## Overview:
-- This project is an analysis of birth data for the state of Missouri over the past decade. As I often work with birth data professionally, I thought this would be a fitting example to add to my portfolio. 
+- This project is an analysis of birth data for the state of Missouri over the past decade using python. As I often work with birth data professionally, I thought this would be a fitting example to add to my portfolio. 
 - Outlined below are the steps I took from setting up the data for analysis through the final summary of key findings.  
     - Data Preparation  
     - Exploratory Data Analysis  
@@ -12,12 +12,20 @@
     - Report Key Findings  
 
 ## Files:
-- Source Data: ![Birth_Data_Natality_2011-2021.txt](/Birth_Data_Natality_2011-2021.txt)  
-- Jupyter Notebook: ![mo_birth_analysis.ipynb](/mo_birth_analysis.ipynb)
+- Source Data: ![Birth_Data_Natality_2011-2021.txt](Birth_Data_Natality_2011-2021.txt)  
+- Jupyter Notebook: ![mo_birth_analysis.ipynb](mo_birth_analysis.ipynb)
+
+## Python Libraries:
+- pandas
+- statsmodels
+- matplotlib
+- plotly
+- numpy
+- csv
 
 ## Preparation:
 1. Read the source file into a dataframe
-2. Clean the file: 
+2. Clean and prepare the file: 
 Remove the first column and rows with missing year
 Change the datatype of the "Births" column to integer
 Add two new columns, "Year-Month" and "Year-Month-Date"
@@ -31,14 +39,14 @@ Find first and last "Year-Month" in the data
 
 ## Analysis:
 
-### Gender
-- Births of males exceeded births of females each year since 2011
-- There has been overall downward trend in births from 2011-2021
-    - Male births have fallen from 38,900 in 2011 to 35,000 in 2021
-    - Female births have decreased from 36,800 in 2011 to 33,300 in 2021
-![Births by gender](/charts/MO_Births_Gender_Trend.png)
+### Births by Gender 
+- Births of males exceeded births of females each year since 2011.
+- There has been an overall downward trend in births from 2011-2021.
+    - Male births have fallen from 38,900 in 2011 to 35,000 in 2021.
+    - Female births have decreased from 36,800 in 2011 to 33,300 in 2021.
+![Births by gender](charts/MO_Births_Gender_Trend.png)
 
-### Time Series
+### Time Series Analysis 
 - Births display seasonality: 
     - Birth counts are at a low around January of each year  
     - The counts increase through mid-year where they hit their highest point  
@@ -46,28 +54,34 @@ Find first and last "Year-Month" in the data
 - Overall, Missouri averaged 6,068 birth per month during this time period.
 - August of 2011 had the greatest count of births in a single month with 7,092.
 - Forecasting indicates an uptick in births for 2022.  
-![Births by month](/charts/MO_Births_Month+Forecast.png)
+![Births by month](charts/MO_Births_Month+Forecast.png)
 
-### County
+### Summary of Births by County
 - St. Louis County reported the greatest number of births in a single county during this period at 125K.
 - Jackson County was 2nd with just over 100K.
 - St. Charles County and St. Louis City came in 3rd and 4th with 47,714 and 46,981 births, respectively.
 - Franklin County reported the least total births at under 10K.
-![Births by county](/charts/MO_Births_County.png)
+![Births by county](charts/MO_Births_County.png)
 
 - Reported tobacco use during pregnancy makes up a small portion of total births for the state overall.
-- Jefferson County reported the highest percentage of reported tobacco use at 18% of total births.\
+- Jefferson County reported the highest percentage of reported tobacco use at 18% of total births.
 - St. Louis County reported the lowest tobacco use at 7%.
-![Births by county tobacco](/charts/MO_Birth_County_Tobacco.png)
+![Births by county tobacco](charts/MO_Birth_County_Tobacco.png)
 
 
 
 
-<br/>
-<br/>
-<br/>
----  
 
+
+<br/>  
+<br/>  
+<br/>  
+<br/>  
+<br/>  
+<br/>     
+
+---
+  
 Citation:     
   
 Centers for Disease Control and Prevention, National Center for Health Statistics. National Vital Statistics System, Natality on CDC WONDER Online Database. Data are from the Natality Records 2007-2021, as compiled from data provided by the 57 vital statistics jurisdictions through the Vital Statistics Cooperative Program. Accessed at http://wonder.cdc.gov/natality-current.html on Apr 23, 2023 4:00:14 PM   
